@@ -8,7 +8,8 @@
  * Description: singly linked list node structure
  */
 
-typedef struct list_node {
+typedef struct list_node 
+{
 	int data;
 	struct list_node *next;
 } list_node;
